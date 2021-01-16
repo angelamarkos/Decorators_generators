@@ -11,7 +11,7 @@
 
 
 Write rest of the following function and use to check decorator:
-
+```
 @retry(Exception, tries=3, delay=2, backoff=0,logger=None)
 def random_numbers_interval(p, q):
  """ function generates rundom number in interval [0,1], p, q are from [0,1] interval
@@ -22,6 +22,7 @@ def random_numbers_interval(p, q):
   if random_number>q:
       raise Exception('grader than upper bound')
   ...
+```
 
 2. Create password generator, the passwords must have 
   * At least 8 characters.
