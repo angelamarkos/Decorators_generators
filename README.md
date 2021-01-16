@@ -23,12 +23,13 @@ def random_numbers_interval(p, q):
       raise Exception('grader than upper bound')
   ...
 
-2. Create brutforce password generator that the passwords must have 
-  * At least 8 characters—the more characters, the better.
-  * A mixture of both uppercase and lowercase letters.
-  * A mixture of letters and numbers.
-  * Inclusion of at least one special character, e.g., ! @ # ? ] Note: do not use < or > in your password, as both can cause problems in Web browsers.
- Generator must have argument for password length. Use itertools functions.
+2. Create password generator, the passwords must have 
+  * At least 8 characters.
+  * Both uppercase and lowercase letters.
+  * Contains letters and numbers.
+  * Contains at least one special character, e.g., ! @ # ? ] , do not contains < or > in password
+  
+ Generator must have argument for password length. Use itertools functions for this generator.
  
  
 
